@@ -1,0 +1,86 @@
+body {
+	background : white;
+	font-family : Nunito, sans-serif;
+	width: stretch;
+    padding-top : 10%;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header {
+	display: flex;
+    position: fixed;
+    top: 8px;
+    width: 90%;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+footer {
+	display: flex;
+    position: fixed;
+    bottom: 8px;
+    width: 90%;
+    flex-direction: row;
+}
+textarea {
+	width : stretch
+}
+header > a {
+	padding : 4px;
+}
+a {
+	margin-right : 4px;
+}
+article {
+	padding: 16px 90px;
+	background: white;
+	transition: 0.75s;
+    box-shadow: inset 0px 0px 0px;
+
+    width: stretch;
+    margin: -8px 1px;
+    transition: 0.5s;
+}
+
+article:hover {
+	background: #9ccd821a;
+    box-shadow: inset 0px 0px 3px 0px;
+
+}
+
+.avatar {
+	font-size: 12px;
+    text-indent: -32px;
+    text-decoration: none;
+    color: #00000000;
+    width: 30px;
+    height: 30px;
+    scale: 1;
+    float: left;
+    background-size: cover;
+    background-position: center;
+    translate: -6px -6px;
+    border-radius: 50%;
+    
+}
+
+.button {
+	display: inline-block;
+    transition: 0.5s;
+    transform-origin: center;
+    scale: 1;
+}
+
+
+a:hover {
+	scale: 1.25;
+    transform-origin: center;
+    color: #000000;
+}
+
+time {
+	font-size: 10pt;
+}

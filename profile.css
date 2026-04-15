@@ -1,0 +1,87 @@
+body {
+	background : white;
+	font-family : Nunito, sans-serif;
+	width: stretch;
+    padding-top : 10%;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+p {
+	padding : 60px;
+}
+
+header {
+	display: flex;
+    position: absolute;
+    top: 8px;
+    width: 90%;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+header > a {
+	padding : 4px;
+}
+
+a {
+	display: flex;
+	transition: 0.5s;
+	scale: 1.0;
+	box-shadow: 0px 0px 0px 0px #000000;
+}
+a.avatar {
+	width: 250px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+	
+	border-radius: 50%;
+    box-shadow: 0px 0px 8px 0px #000000;
+    
+}
+
+a:hover {
+
+	scale: 1.055;
+	box-shadow: 0px 0px 8px 1px #000000bf;
+}
+
+
+form {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin: 40px;
+}
+label {
+	font-size: 10pt;
+	display: flex;
+	justify-content: space-between;
+	text-wrap-mode: nowrap;
+    align-items: baseline;
+	padding: 2px;
+}
+
+input, button {
+	flex-grow: 1.0;
+	min-width: 120px;
+    padding-left: 2px;
+}
+
+.button {
+    padding: 1px 6px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    color: buttontext;
+    background-color: buttonface;
+    text-decoration: none;
+}
+
+#submit {
+	align-self: end;
+}
